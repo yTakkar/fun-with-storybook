@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sb": "start-storybook -p 6006 -c .storybook"
+    "sb": "start-storybook -p 6006 -c .storybook",
+    "sb:build": "build-storybook -c .storybook -o storybook-build"
   },
   "keywords": [],
   "author": "",
